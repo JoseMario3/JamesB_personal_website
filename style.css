@@ -1,49 +1,86 @@
 body {
-    margin: 1rem;
-    font-family: sans-serif;
-    line-height: 1.5;
-    background: #669BBC;
+    background: #669bbc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+    background: #fdf0d5;
     color: #780000;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border: solid;
 }
 
-h1 {
-    font-family: verdana, arial, sans-serif;
+#over {
+    padding-top: 20px;
+    font-size: 45px;
 }
 
-.bio {
-    padding-left: 20px;
+#under {
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.biography {
+    background: #669bbc;
+    color: #780000;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: solid;
+}
+
+#bioheader {
+    font-size: 18;
+}
+
+#bio {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#James {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#photos {
+    background: #fdf0d5;
+    color: #780000;
+    border: solid;
+    margin-bottom: 20px;
+    align-content: space-around;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
 }
 
-.header {
-    margin-bottom: 20px;
-}
-.biography {
-    margin-bottom: 175px;
-}
-
-.portfolio {
-    /*
-        display: flex;
-    */
-}
-
-#James {
-    width: 150px;
-    float: left;
-    border: solid black;
-}
-
 #Gamer {
-    width: 300px;
-    border-radius: 30px 30px 30px 30px;
-    float: inline-start;
-    padding-left: 20px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 10px;
 }
 
 #PC {
-    width: 200px;
-    border-radius: 10px 10px 10px 10px;
-    float: right;
+    height: 200px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.portfolio {
+    background: #669bbc;
+    color: #780000;
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#projects {
+    text-align: left;
 }

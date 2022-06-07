@@ -1,59 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Jame's Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Meet James</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
     <script src="script.js"></script>
-    
+
     <!-- Main Header -->
     <div class="header">
-
-        <h1>James Bosch</h1>
-        <p><em>Computer Science Major</em> | Java, HTML, CSS, JavaScript</p>
-
+        <h1 id="over">James Bosch</h1>
+        <p id="under">
+            <em>Computer Science Major</em> | Java, HTML, CSS, JavaScript
+        </p>
     </div>
 
     <!-- Biography -->
     <div class="biography">
-        <h1 class="bioHeader">Biography</h1>
-        <img src="JamesBPhoto.jpg" id="James" alt="Photo of James" />
+        <h1 id="bioheader">About Me</h1>
 
-        <p class="bio">
-            Hi! My name is James Bosch. I am currently a student at CUNY Lehman College
-            in Bronx pursuing a degree in Computer Science. I am also a competitive gamer and
-            active participant in the "Fighting Game Community." I've hosted many local game
-            tournaments and gatherings in the mid-Hudson Valley region of NY. I'm a tech
-            enthusiast that's interested in many facets of technology. I have years of experience
-            building PCs, including custom water cooling.
+        <img src="images/JamesBPhoto.jpg" id="James" alt="Photo of James" />
+
+        <p id="bio">
+            Hi! My name is James Bosch. I am currently a student at CUNY Lehman College in Bronx pursuing a degree in Computer Science. I am also a competitive gamer and active participant in the "Fighting Game Community." I've hosted many local game tournaments
+            and gatherings in the mid-Hudson Valley region of NY. I'm a tech enthusiast that's interested in many facets of technology. I have years of experience building PCs, including custom water cooling.
         </p>
-        <!--
-            <img src="Gamer.jpg" id="Gamer" alt="James participating in a fighting match at a tournament" />
-            <img src="PC.jpg" id="PC" alt="neon light PC built by James" />
-        -->
+    </div>
 
+    <!--- Pictures -->
+    <div id="photos">
+        <img src="images/Gamer.jpg" id="Gamer" alt="James participating in a fighting match at a tournament" />
+        <img src="images/PC.jpg" id="PC" alt="neon light PC built by James" />
     </div>
 
     <!-- Portfolio -->
     <div class="portfolio">
-        
         <h1>Portfolio</h1>
 
-        <p>Feel free to check out some of my work!</p>
+        <p id="portunder">Feel free to check out some of my work!</p>
 
-        <p>
-            <a href="https://github.com/Boschio"> <em>Github</em></a>
-        </p>
-        <p>
-            <a href="https://github.com/Boschio/Light-and-Sound-memory-game"> <em>Light and Sound Memory Game</em></a> for CodePath
-        </p>
-        <p>
-            <a href="https://github.com/Boschio/Minesweeper-project"><em>Minesweeper Game</em></a> for CMP 168
-        </p>
+        <ul id="projects">
+            <li>
+                <a href="https://github.com/Boschio"> <em>Github Page</em></a>
+            </li>
+            <li>
+                <a href="https://github.com/Boschio/Light-and-Sound-memory-game">
+                    <em>Light and Sound Memory Game</em></a>
+                for CodePath
+            </li>
+            <li>
+                <a href="https://github.com/Boschio/Minesweeper-project"><em>Minesweeper Game</em></a
+          >
+          for CMP 168
+        </li>
+      </ul>
     </div>
-
-</body>
+  </body>
 </html>
